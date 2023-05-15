@@ -1,6 +1,5 @@
 package fr.declaration.variable;
 
-import java.sql.SQLOutput;
 
 public class DeclarationApp {
     public static void main (String[] args){
