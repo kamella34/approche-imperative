@@ -13,7 +13,7 @@ public class DeclarationApp {
        char cc = 'a';
        boolean bool = true;
        String strg = "HelloWorld, donne moi des \u20ac";
-       String randomString = "Voici le résultat d’un calcul : %n 1+5=6";
+       String randomString = "Voici le résultat d’un calcul :\n 1+5=6";
 
        System.out.println(by);
        System.out.println(sh);
