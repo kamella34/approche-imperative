@@ -7,13 +7,13 @@ public class SommeDeTableaux {
                 {-1, 12, 17, 14, 5, -9, 0, 18, -6, 0, 4, -13, 5, 7, -2, 8, -1}
         };
 
-        int[] sommeArrayBidimentionel = new int[array[0].length];
+        int[] sommeArrayBidimentionnel = new int[array[0].length];
 
         for (int i = 0; i < array[0].length; i++) {
-            sommeArrayBidimentionel[i] = array[0][i] + array[1][i];
+            sommeArrayBidimentionnel[i] = array[0][i] + array[1][i];
         }
 
-        for (int value : sommeArrayBidimentionel) {
+        for (int value : sommeArrayBidimentionnel) {
             System.out.print(value + " ");
         }
     }
