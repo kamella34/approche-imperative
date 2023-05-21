@@ -6,14 +6,31 @@ import java.util.Arrays;
 public class InteractifPlusGrand {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("enter numbers");
-        int nb = scan.nextInt();
+
         int[] array = new int[10];
-        int i = 0;
+        int count = 0;
+        int tour = 11;
+
+        System.out.println("ENTREZ 10 CHIFFRES");
+        do{
+            System.out.print( "Encore "+ --tour +" -> Entrez chiffre : ");
+            int nb= scan.nextInt();
+            array[count] = nb;
+            count += 1;
+            System.out.println(Arrays.toString(array));
+
+            int maxValue = array[0];
+            for (int value : array) {
+                if (value > maxValue) {
+                    maxValue = value;
+                }
+            }
+            System.out.println("Le plus grand chiffre est "+maxValue);
+
+        } while(count < 10);
 
 
     }
+
 }
-
-
 
