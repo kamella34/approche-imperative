@@ -13,8 +13,8 @@ public class SommeDeTableaux {
             sommeArrayBidimentionnel[i] = array[0][i] + array[1][i];
         }
 
-        for (int i = 0; i < sommeArrayBidimentionnel.length; i++){
-            System.out.print(sommeArrayBidimentionnel[i] + " ");
+        for (int value : sommeArrayBidimentionnel) {
+            System.out.print(value + " ");
         }
     }
 }
